@@ -1,0 +1,32 @@
+[
+    {
+        "firstName": "Leonardo",
+        "lastName": "Menezes",
+        "adress": "Rua XYZ, 100",
+        "emailAdress": "leonardormenezes83@gmail.com",
+        "radioGender": "n",
+        "checks": [
+            "Netflix",
+            "Livros"
+        ],
+        "selectCountries": "Dinamarca",
+        "selectYears": "1983",
+        "selectMonths": "Dezembro",
+        "pwd": "Leo@123"
+    },
+    {
+        "firstName": "Silvio",
+        "lastName": "Santos",
+        "adress": "Rua abc, 100",
+        "emailAdress": "silviosantos@gmail.com",
+        "radioGender": "n",
+        "checks": [
+            "Netflix",
+            "Livros"
+        ],
+        "selectCountries": "Dinamarca",
+        "selectYears": "1983",
+        "selectMonths": "Dezembro",
+        "pwd": "Leo@123"
+    }
+]
