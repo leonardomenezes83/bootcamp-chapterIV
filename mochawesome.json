@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-10-21T13:28:04.520Z",
-    "end": "2021-10-21T13:28:12.223Z",
-    "duration": 7703,
+    "start": "2021-10-23T01:40:00.990Z",
+    "end": "2021-10-23T01:40:09.226Z",
+    "duration": 8236,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "8aa25ffc-2fd3-4d81-bd3a-b84107dc37cf",
+      "uuid": "66b5260e-f412-4859-b0c8-3a8b7931f611",
       "title": "",
       "fullFile": "cypress/integration/cadastro.spec.js",
       "file": "cypress/integration/cadastro.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "4bfad0ec-bb1e-436d-9aa9-dc2a1fb52253",
+          "uuid": "8d3e73bb-2b2b-4dd2-816d-053624100a51",
           "title": "Cadastro",
           "fullFile": "",
           "file": "",
@@ -38,29 +38,29 @@
               "title": "Cadastrar",
               "fullTitle": "Cadastro Cadastrar",
               "timedOut": null,
-              "duration": 7574,
+              "duration": 8033,
               "state": "passed",
               "speed": "slow",
               "pass": true,
               "fail": false,
               "pending": false,
               "context": null,
-              "code": "cy.get('input[name=firstName]').type(chance.first());\ncy.get('input[name=lastName]').type(chance.last());\ncy.get('textarea[name=adress]').type(chance.address());\ncy.get('input[name=emailAdress]').type(chance.email());\ncy.get('input[type=checkbox]').check('Netflix');\ncy.get('input[type=checkbox]').check('Livros');\ncy.get('select#countries').select('Dinamarca', {\n  force: true\n});\ncy.get('select#years').select('1983', {\n  force: true\n});\ncy.get('select#months').select('Dezembro', {\n  force: true\n});\ncy.get('select#days').select('19', {\n  force: true\n});\ncy.get('input#firstpassword').type('Leo@123');\ncy.get('input#secondpassword').type('Leo@123');\ncy.get('#submitbtn').click(); //cy.contains('Finalizar cadastro').click()  <<FUNCIONA! Porém, não é uma boa prática.\n//redirecionado para nova página.\n//verificar URL \ncy.url().should('contain', 'https://form-agilizei.netlify.app/listagem'); //verifica qual url está!!!!",
+              "code": "cy.get('input[name=firstName]').type(chance.first());\ncy.get('input[name=lastName]').type(chance.last());\ncy.get('textarea[name=adress]').type(chance.address());\ncy.get('input[name=emailAdress]').type(chance.email());\ncy.get('input[value=m]').click();\ncy.get('input[type=checkbox]').check(['Netflix', 'Livros']); // cy.get('input[type=checkbox]').check('Livros')\ncy.get('select#countries').select('Dinamarca', {\n  force: true\n});\ncy.get('select#years').select('1983', {\n  force: true\n});\ncy.get('select#months').select('Dezembro', {\n  force: true\n});\ncy.get('select#days').select('19', {\n  force: true\n});\ncy.get('input#firstpassword').type('Leo@123');\ncy.get('input#secondpassword').type('Leo@123');\ncy.get('#submitbtn').click(); //cy.contains('Finalizar cadastro').click()  <<FUNCIONA! Porém, não é uma boa prática.\n//redirecionado para nova página.\n//verificar URL \ncy.url().should('contain', 'https://form-agilizei.netlify.app/listagem'); //verifica qual url está!!!!",
               "err": {},
-              "uuid": "38ae839d-f9f1-4cce-98ea-2664ced195b5",
-              "parentUUID": "4bfad0ec-bb1e-436d-9aa9-dc2a1fb52253",
+              "uuid": "9a9f99d1-7963-4f07-8fc0-64cd3c3c89bf",
+              "parentUUID": "8d3e73bb-2b2b-4dd2-816d-053624100a51",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "38ae839d-f9f1-4cce-98ea-2664ced195b5"
+            "9a9f99d1-7963-4f07-8fc0-64cd3c3c89bf"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 7574,
+          "duration": 8033,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
